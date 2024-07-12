@@ -10,24 +10,24 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
 
 ## Instalação e Configuração
 
-1- Clonar o repositório:
-    Clone o repositório do tema WordPress para sua máquina local utilizando o seguinte comando: git clone https://github.com/rodrigo-d-freitas/rodrigo-d-freitas.git
+- Clonar o repositório:
+    - Clone o repositório do tema WordPress para sua máquina local utilizando o seguinte comando: git clone https://github.com/rodrigo-d-freitas/rodrigo-d-freitas.git
 
-2- Configuração do WordPress:
+- Configuração do WordPress:
     - Certifique-se de ter o WordPress instalado em seu ambiente de desenvolvimento local. Caso ainda não tenha, baixe e instale o WordPress a partir do site oficial.
     - Copie o diretório do tema clonado para a pasta de temas do WordPress, localizada em 'wp-content/themes/'.
 
-3- Ativar o tema
+- Ativar o tema
     - No painel administrativo do WordPress, vá para Aparência > Temas.
     - Localize o tema que você acabou de adicionar e clique em "Ativar".
 
-4- Configurações adicionais (opcional)
+- Configurações adicionais (opcional)
     - Dependendo das funcionalidades específicas do seu tema, pode ser necessário configurar plugins adicionais, ajustes de configuração ou personalizações no WordPress. Documente qualquer configuração especial aqui.
 
-5- Desenvolvimento e customização
+- Desenvolvimento e customização
     - Abra o diretório do tema no seu editor de código preferido e comece a personalizar o tema de acordo com suas necessidades. O arquivo principal do tema geralmente é style.css, onde você pode definir estilos e informações básicas do tema.
 
-6- Visualização local
+- Visualização local
     - Para visualizar as alterações feitas, inicie o servidor local do WordPress ou utilize ferramentas como MAMP, XAMPP ou Docker para rodar o WordPress localmente. Acesse o site local através do seu navegador para ver as alterações aplicadas.
 
 ## Versionamento
