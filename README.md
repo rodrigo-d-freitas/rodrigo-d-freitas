@@ -30,6 +30,27 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
 - Visualização local
     - Para visualizar as alterações feitas, inicie o servidor local do WordPress ou utilize ferramentas como MAMP, XAMPP ou Docker para rodar o WordPress localmente. Acesse o site local através do seu navegador para ver as alterações aplicadas.
 
+## Estrutura do projeto
+
+rodrigo-d-freitas/
+├── wp-content/
+│   └── themes/
+│       └── tabela-periodica/
+│           ├── assets/
+│           │   └── images/
+│           ├── index.php
+│           ├── style.css
+│           └── functions.php
+├── README.md
+
+## Funcionalidades principais
+- Página inicial: Resumo das habilidades e serviços
+- Sobre mim: Detalhes sobre minha formação e experiência
+- Serviços: Descrição dos serviços oferecidos
+- Portfólio: Exibição de trabalhos anteriores
+- Blog: Artigos e posts relacionados às suas áreas de especialização
+- Contato: Formulário de contato e informações
+
 ## Versionamento
 Para manter uma melhor organizaçãodas releases, siga as recomendações da [Semantic Versioning 2.0.0](https://semver.org/).
 
