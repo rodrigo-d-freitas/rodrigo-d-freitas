@@ -34,13 +34,21 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
 
 rodrigo-d-freitas/
 ├── wp-content/
+
 │   └── themes/
+
 │       └── tabela-periodica/
+
 │           ├── assets/
+
 │           │   └── images/
+
 │           ├── index.php
+
 │           ├── style.css
+
 │           └── functions.php
+
 ├── README.md
 
 ## Funcionalidades principais
