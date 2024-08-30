@@ -1,0 +1,62 @@
+@import "sass/variables";
+@import "sass/fonts";
+
+body{
+    font-family: var(--rdf__primary-font);
+    font-weight: var(--rdf__font-weight-300);
+    line-height: var(--rdf__line-height-regular);
+}
+
+.rdf-grid{
+    display: grid;
+    grid-template-rows: 155px 600px 475px 396px 1056px 620px 448px 700px;
+    grid-template-areas: 
+    "header"
+    "banner"
+    "title"
+    "intro"
+    "services"
+    "portfolio"
+    "blog"
+    "footer"
+}
+.rdf__header{
+    grid-area: header;
+    background-color: var(--rdf__primary-100);
+    
+}
+.rdf__banner{
+    grid-area: banner;
+}
+.rdf__title{
+    grid-area: title;
+}
+.rdf__intro{
+    grid-area: intro;
+    background-color: var(--rdf__primary-100);
+    color: var(--rdf__background-300);
+    padding-top: 64px;
+    display: grid;
+    font-size: var(--rdf__font-size-regular);
+    grid-template-columns: 1fr minmax(auto, 1160px) 1fr;
+}
+.rdf__central-column{
+    grid-column: 2;
+}
+.rdf__services{
+    grid-area: services;
+    background-color: var(--rdf__background-100);
+    color: var(--neutral-100);
+}
+.rdf__portfolio{
+    grid-area: portfolio;
+    background-color: var(--rdf__background-100);
+    color: var(--neutral-100);
+}
+.rdf__blog{
+    grid-area: blog;
+}
+.rdf__footer{
+    grid-area: footer;
+    background-color: var(--rdf__primary-100);
+}
