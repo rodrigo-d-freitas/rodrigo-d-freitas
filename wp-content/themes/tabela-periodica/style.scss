@@ -30,6 +30,20 @@ body{
 }
 .rdf__title{
     grid-area: title;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1160px) 1fr;
+
+    .rdf__central-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        
+        .rdf__title-side{
+            padding-left: 64px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+    }
 }
 .rdf__intro{
     grid-area: intro;
