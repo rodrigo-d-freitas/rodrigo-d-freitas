@@ -6,101 +6,21 @@ body{
     font-weight: var(--rdf__font-weight-300);
     line-height: var(--rdf__line-height-regular);
 }
-
-.rdf-grid{
-    display: grid;
-    
-    grid-template-areas: 
-    "header"
-    "banner"
-    "title"
-    "intro"
-    "services"
-    "portfolio"
-    "blog"
-    "footer"
+.navbar>.container-fluid{
+    padding: 0;
 }
-.rdf__header{
-    grid-area: header;
+.navbar{
     background-color: var(--rdf__primary-100);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 0;
 
-    &-logo{
-        display: flex;
-        align-items: center;
-        margin-left: 4px;
-
-        img{
-            height: 154px;
-        }
-    } 
-
-    &-menu{
-        ul{
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            margin: 0;
-            padding: 0;
-
-            a{
-                text-decoration: none;
-            }
-        }
+    .navbar-brand,
+    .nav-item,
+    .nav-link{
+        padding: 0 !important;
     }
     
 }
-.rdf__banner{
-    grid-area: banner;
-}
-.rdf__title{
-    grid-area: title;
-    display: grid;
-    grid-template-columns: 1fr minmax(auto, 1160px) 1fr;
 
-    .rdf__central-column{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        
-        .rdf__title-side{
-            padding-left: 64px;
-            font-size: 32px;
-            line-height: 48px;
-        }
-    }
-}
-.rdf__intro{
-    grid-area: intro;
-    background-color: var(--rdf__primary-100);
-    color: var(--rdf__background-300);
-    padding-top: 64px;
-    display: grid;
-    font-size: var(--rdf__font-size-regular);
-    grid-template-columns: 1fr minmax(auto, 1160px) 1fr;
-}
-.rdf__central-column{
-    grid-column: 2;
-}
-.rdf__services{
-    grid-area: services;
-    background-color: var(--rdf__background-100);
-    color: var(--neutral-100);
-}
-.rdf__portfolio{
-    grid-area: portfolio;
-    background-color: var(--rdf__background-100);
-    color: var(--neutral-100);
-}
-.rdf__blog{
-    grid-area: blog;
-}
-.rdf__footer{
-    grid-area: footer;
-    background-color: var(--rdf__primary-100);
-}
 
 .rdf__element{
     display: flex;
@@ -127,6 +47,9 @@ body{
     &-name{
         font-size: var(--rdf__font-size-regular);
         margin: 0;
+    }
+    &-logo{
+        background-color: var(--rdf__highlight-100);
     }
 
     &:hover{
