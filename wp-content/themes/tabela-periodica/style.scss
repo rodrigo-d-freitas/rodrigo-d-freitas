@@ -9,7 +9,7 @@ body{
 
 .rdf-grid{
     display: grid;
-    grid-template-rows: 155px 600px 475px 396px 1056px 620px 448px 700px;
+    
     grid-template-areas: 
     "header"
     "banner"
@@ -23,6 +23,33 @@ body{
 .rdf__header{
     grid-area: header;
     background-color: var(--rdf__primary-100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-logo{
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+
+        img{
+            height: 154px;
+        }
+    } 
+
+    &-menu{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
     
 }
 .rdf__banner{
@@ -73,4 +100,36 @@ body{
 .rdf__footer{
     grid-area: footer;
     background-color: var(--rdf__primary-100);
+}
+
+.rdf__element{
+    display: flex;
+    width: 155px;
+    flex-direction: column;
+    background-color: var(--rdf__background-100);
+    color: var(--rdf__neutral-100);
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-right: 1px solid var(--rdf__neutral-100);
+    border-bottom: 1px solid var(--rdf__neutral-100);
+    border-top: 1px solid var(--rdf__neutral-100);
+
+    &-number{
+        font-size: var(--rdf__font-size-regular);
+        margin: 0;
+    }
+    &-symbol{
+        font-size: 64px;
+        margin: 0;
+        font-weight: var(--rdf__font-weight-500);
+    }
+    &-name{
+        font-size: var(--rdf__font-size-regular);
+        margin: 0;
+    }
+
+    &:hover{
+        background-color: var(--rdf__highlight-100);
+    }
 }
