@@ -169,4 +169,8 @@ body {
 }
 .rdf__element:hover {
   background-color: var(--rdf__highlight-100);
+}
+
+.rdf__title {
+  padding-top: 64px;
 }/*# sourceMappingURL=style.css.map */
