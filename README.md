@@ -10,33 +10,54 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
 
 ## Instalação e Configuração
 
-- Clonar o repositório:
+- **Clonar o repositório:**
     - Clone o repositório para sua máquina local utilizando o seguinte comando: 
     ```bash
     git clone https://github.com/rodrigo-d-freitas/rodrigo-d-freitas.git
+    ```
 
-- Configuração do ambiente
+- **Configuração do ambiente**
     - Certifique-se de ter o Node.js e o Angular CLI instalados. Caso não tenha, instale o Node.js a partir do site oficial e o Angular CLI com o comando:
     ```bash
     npm install -g @angular/cli
+    ```
 
     - Após clonar o repositório, entre no diretório do projeto e instale as dependências:
     ```bash
     cd rodrigo-d-freitas
     npm install
+    ```
+
+- **Executar o projeto**
+    Para rodar o projeto localmente, utilize o comando:
+    ```bash
+    ng serve
+    ```
+
+    Agora acesse o projeto em http://localhost:4200 para visualizar o site. 
 
 ## Estrutura do projeto
 
 - rodrigo-d-freitas/
-    - wp-content/
-        - themes/
-            - tabela-periodica/
-                - assets/
-                    - images/
-                - index.php
-                - style.css
-                - functions.php
+    - src/
+        - app/
+        - assets/
+        - environments/
+        - index.html
+        - main.ts
+        - styles.scss
+    - angular.json
+    - package.json
     - README.md
+    - tsconfig.json
+
+## Desenvolvimento e Customização
+Abra o diretório do projeto no seu editor de código preferido (como VS Code) e comece a desenvolver de acordo com suas necessidades. As principais alterações podem ser feitas nos seguintes arquivos:
+    - src/app/app.component.ts : Componente principal
+    - src.styles.scss : Estilos globais do site
+
+## Visualização Local
+Para visualizar as alterações feitas, rode o servidor localmente utilizando ng serve e acesse http://localhost:4200 no navegador para ver as alterações aplicadas em tempo real. 
 
 ## Funcionalidades principais
 - Página inicial: Resumo das habilidades e serviços
