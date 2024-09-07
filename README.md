@@ -16,11 +16,11 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
     git clone https://github.com/rodrigo-d-freitas/rodrigo-d-freitas.git
 
 - Configuração do ambiente
-    1- Certifique-se de ter o Node.js e o Angular CLI instalados. Caso não tenha, instale o Node.js a partir do site oficial e o Angular CLI com o comando:
+    - Certifique-se de ter o Node.js e o Angular CLI instalados. Caso não tenha, instale o Node.js a partir do site oficial e o Angular CLI com o comando:
     ```bash
     npm install -g @angular/cli
 
-    2- Após clonar o repositório, entre no diretório do projeto e instale as dependências:
+    - Após clonar o repositório, entre no diretório do projeto e instale as dependências:
     ```bash
     cd rodrigo-d-freitas
     npm install
