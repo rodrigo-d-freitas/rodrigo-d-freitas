@@ -29,6 +29,7 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
     ```
 
 - **Executar o projeto**
+
     Para rodar o projeto localmente, utilize o comando:
     ```bash
     ng serve
@@ -52,11 +53,13 @@ Website pessoal que integra minhas habilidades em planejamento financeiro, desig
     - tsconfig.json
 
 ## Desenvolvimento e Customização
+
 Abra o diretório do projeto no seu editor de código preferido (como VS Code) e comece a desenvolver de acordo com suas necessidades. As principais alterações podem ser feitas nos seguintes arquivos:
     - src/app/app.component.ts : Componente principal
     - src.styles.scss : Estilos globais do site
 
 ## Visualização Local
+
 Para visualizar as alterações feitas, rode o servidor localmente utilizando ng serve e acesse http://localhost:4200 no navegador para ver as alterações aplicadas em tempo real. 
 
 ## Funcionalidades principais
